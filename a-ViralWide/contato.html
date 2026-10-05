@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ViralWave | Contato</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        #contato-intro .contato-lead {
+            border-left: 3px solid var(--accent);
+            padding-left: 16px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ViralWave</h1>
+        <p>Ideias que conectam marcas e pessoas.</p>
+
+        <nav id="menu" aria-label="Navegação principal">
+            <a href="index.html"><i class="fa-solid fa-house" aria-hidden="true"></i> Início</a>
+            <a href="pagina2.html"><i class="fa-solid fa-layer-group" aria-hidden="true"></i> Serviços</a>
+            <a href="pagina3.html"><i class="fa-solid fa-briefcase" aria-hidden="true"></i> Cases</a>
+            <a href="contato.html" aria-current="page"><i class="fa-solid fa-envelope" aria-hidden="true"></i> Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="contato-intro">
+            <h2>Vamos conversar?</h2>
+            <p class="contato-lead">Conte um pouco sobre o seu projeto. Nossa equipe vai adorar ajudar sua marca a crescer.</p>
+            <div class="contato-dados">
+                <p><i class="fa-solid fa-envelope" aria-hidden="true"></i> <a href="mailto:davilindo67@gmail.com">davilindo67@gmail.com</a></p>
+                <p><i class="fa-solid fa-phone" aria-hidden="true"></i> <a href="tel:+5527967671033">(27) 96767-1033</a></p>
+            </div>
+        </section>
+
+        <section class="form-section">
+            <h2>Envie sua mensagem</h2>
+            <form action="mailto:davilindo67@gmail.com" method="post" enctype="text/plain">
+                <div class="form-grid">
+                    <div class="form-field">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" name="Nome" autocomplete="name" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="Email" autocomplete="email" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="telefone">Telefone</label>
+                        <input type="tel" id="telefone" name="Telefone" autocomplete="tel">
+                    </div>
+                    <div class="form-field">
+                        <label for="assunto">Assunto</label>
+                        <input type="text" id="assunto" name="Assunto" required>
+                    </div>
+                    <div class="form-field form-field-full">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="Mensagem" rows="6" required></textarea>
+                    </div>
+                </div>
+                <button class="botao" type="submit"><i class="fa-solid fa-paper-plane" aria-hidden="true"></i> Enviar mensagem</button>
+                <p class="form-note">O envio abre o aplicativo de e-mail configurado no seu dispositivo.</p>
+            </form>
+        </section>
+    </main>
+
+    <footer id="rodape">
+        <p><i class="fa-solid fa-envelope" aria-hidden="true"></i> <a href="mailto:davilindo67@gmail.com">davilindo67@gmail.com</a></p>
+        <p><i class="fa-solid fa-phone" aria-hidden="true"></i> <a href="tel:+5527967671033">(27) 96767-1033</a></p>
+        <p class="copyright">ViralWave — Ideias que conectam marcas e pessoas.</p>
+    </footer>
+</body>
+</html>

@@ -4,28 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ViralWave | Marketing Digital</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
         <h1>ViralWave</h1>
         <p>Ideias que conectam marcas e pessoas.</p>
 
-        <nav aria-label="Navegação principal">
-            <a href="index.html">Início</a>
-            <a href="pagina2.html">Serviços</a>
-            <a href="pagina3.html">Cases</a>
+        <nav id="menu" aria-label="Navegação principal">
+            <a href="index.html" aria-current="page"><i class="fa-solid fa-house" aria-hidden="true"></i> Início</a>
+            <a href="pagina2.html"><i class="fa-solid fa-layer-group" aria-hidden="true"></i> Serviços</a>
+            <a href="pagina3.html"><i class="fa-solid fa-briefcase" aria-hidden="true"></i> Cases</a>
+            <a href="contato.html"><i class="fa-solid fa-envelope" aria-hidden="true"></i> Contato</a>
         </nav>
     </header>
 
     <main>
-        <section>
+        <section class="intro">
+            <p class="eyebrow" style="color: var(--accent);">Estratégia, criatividade e resultado</p>
             <h2>Sobre a ViralWave</h2>
             <p>A ViralWave é uma agência de marketing digital especializada em criar estratégias simples, criativas e eficientes para marcas que desejam crescer no ambiente online.</p>
             <p>Trabalhamos com planejamento de conteúdo, gestão de redes sociais e campanhas digitais para aproximar empresas de seus públicos.</p>
         </section>
 
-        <section>
+        <section class="diferenciais">
             <h2>Nossos diferenciais</h2>
             <ul>
                 <li>Estratégias personalizadas para cada negócio</li>
@@ -36,10 +42,10 @@
         </section>
     </main>
 
-    <footer>
-        <p>E-mail: davilindo67@gmail.com</p>
-        <p>Telefone: (27) 96767-1033</p>
-        
+    <footer id="rodape">
+        <p><i class="fa-solid fa-envelope" aria-hidden="true"></i> <a href="mailto:davilindo67@gmail.com">davilindo67@gmail.com</a></p>
+        <p><i class="fa-solid fa-phone" aria-hidden="true"></i> <a href="tel:+5527967671033">(27) 96767-1033</a></p>
+        <p class="copyright">ViralWave — Ideias que conectam marcas e pessoas.</p>
     </footer>
 </body>
 </html>

@@ -4,48 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ViralWave | Cases</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
         <h1>ViralWave</h1>
         <p>Ideias que conectam marcas e pessoas.</p>
 
-        <nav aria-label="Navegação principal">
-            <a href="index.html">Início</a>
-            <a href="pagina2.html">Serviços</a>
-            <a href="pagina3.html">Cases</a>
+        <nav id="menu" aria-label="Navegação principal">
+            <a href="index.html"><i class="fa-solid fa-house" aria-hidden="true"></i> Início</a>
+            <a href="pagina2.html"><i class="fa-solid fa-layer-group" aria-hidden="true"></i> Serviços</a>
+            <a href="pagina3.html" aria-current="page"><i class="fa-solid fa-briefcase" aria-hidden="true"></i> Cases</a>
+            <a href="contato.html"><i class="fa-solid fa-envelope" aria-hidden="true"></i> Contato</a>
         </nav>
     </header>
 
     <main>
-        <section>
+        <section class="cases-section">
             <h2>Cases de sucesso</h2>
+            <p class="section-intro">Projetos pensados para aproximar marcas de pessoas e gerar resultados.</p>
 
-            <article>
+            <div class="cases-grid">
+            <article class="card case-card">
                 <h3>Campanha para marca de alimentos</h3>
                 <img src="img/imagem1.jpg" alt="Equipe planejando uma campanha de marketing">
                 <p>Planejamento de conteúdo que aumentou o alcance da marca nas redes sociais.</p>
             </article>
 
-            <article>
+            <article class="card case-card">
                 <h3>Presença digital para negócio local</h3>
                 <img src="img/imagem2.jpg" alt="Pessoa analisando resultados de uma campanha digital">
                 <p>Estratégia digital criada para aproximar o negócio de seus clientes.</p>
             </article>
 
-            <article>
+            <article class="card case-card">
                 <h3>Identidade para nova marca</h3>
                 <img src="img/imagem3.jpg" alt="Materiais visuais de uma identidade de marca">
                 <p>Comunicação visual desenvolvida para apresentar uma marca com clareza.</p>
             </article>
+            </div>
         </section>
     </main>
 
-    <footer>
-        <p>E-mail: davilindo67@gmail.com</p>
-        <p>Telefone: (27) 96767-1033</p>
-        
+    <footer id="rodape">
+        <p><i class="fa-solid fa-envelope" aria-hidden="true"></i> <a href="mailto:davilindo67@gmail.com">davilindo67@gmail.com</a></p>
+        <p><i class="fa-solid fa-phone" aria-hidden="true"></i> <a href="tel:+5527967671033">(27) 96767-1033</a></p>
+        <p class="copyright">ViralWave — Ideias que conectam marcas e pessoas.</p>
     </footer>
 </body>
 </html>
